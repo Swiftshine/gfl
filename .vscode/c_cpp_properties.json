@@ -3,7 +3,10 @@
         {
             "name": "32-bit PowerPC",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/gfl-2008/include/",
+                "${workspaceFolder}/gfl-2010/include/",
+                "${workspaceFolder}/gfl-2015/include/"
             ],
             "defines": [
                 "_DEBUG",
