@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "name": "32-bit PowerPC",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.22000.0",
+            "cStandard": "c17",
+            "cppStandard": "c++11",
+            "intelliSenseMode": "clang-x86"
+        }
+    ],
+    "version": 4
+}
