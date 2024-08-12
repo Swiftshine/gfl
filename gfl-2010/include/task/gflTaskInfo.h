@@ -3,9 +3,7 @@
 
 #include <types.h>
 
-namespace gfl {
-    // incomplete
-    
+namespace gfl {  
     class Task;
 
     class TaskInfo {
@@ -15,6 +13,9 @@ namespace gfl {
             Active   = 1,
         };
 
+    public:
+        TaskInfo();
+        ~TaskInfo();
     public:
         char        mName[0x17];
         Flags       mFlags;
