@@ -17,5 +17,9 @@ namespace gfl {
         Work = 10,
         Resource = 11,
     };
+
+namespace mem {
+    void* Memcpy(void* dst, size_t len, void* src);
+}
 }
 #endif
