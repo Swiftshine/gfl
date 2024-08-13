@@ -8,7 +8,7 @@ namespace gfl {
         Singleton();
         ~Singleton();
     public:
-        static T& instance() {
+        static T& Instance() {
             static T instance;
             return instance;
         }
