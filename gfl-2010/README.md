@@ -1,7 +1,6 @@
 # GFL 2010
 
-
-
+This folder contains a decompilation of GFL 2010 from <em>Kirby's Epic Yarn</em> (USA, 1.0).
 
 | Name | Description | Decompilation Progress |
 | - | - | - |

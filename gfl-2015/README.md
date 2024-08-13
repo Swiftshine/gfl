@@ -1,5 +1,7 @@
 # GFL 2015
 
+This folder contains a decompilation of GFL 2015 from <em>Yoshi's Woolly World</em> (USA, 1.1).
+
 | Name | Description | Decompilation Progress |
 | - | - | - |
 | NonCopyable | A non-copyable base class. | ✔ |

@@ -25,3 +25,5 @@ Each GFL revision gets its own folder. The README in each folder will list the G
 |📌| High priority|
 |🛑| Stuck or stopped for now| 
 |❓| Unknown |
+
+Any functions that don't have a name will be labelled by the address of the game it was found in. These are specified in the READMEs.
