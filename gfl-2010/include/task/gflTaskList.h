@@ -8,9 +8,9 @@
 namespace gfl {
     class TaskList {
     public:
-        static Task* Instance;
+        static TaskList* Instance;
     public:
-        inline TaskInfo* GetNextAvailableTask() {
+        inline TaskInfo* GetNextAvailableTaskInfo() {
             // This function is inline in GFL 2010, but not in GFL 2015
 
             for (int i = 0; i < GFL_TASKLIST_MAX_TASK_COUNT; i++) {
@@ -29,7 +29,7 @@ namespace gfl {
 
             return nullptr;
         }
-        
+
         void MakeInstance();
         void RemoveInstance();
     private:
