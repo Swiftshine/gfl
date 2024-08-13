@@ -1,11 +1,25 @@
 {
     "configurations": [
         {
-            "name": "32-bit PowerPC",
+            "name": "GFL 2010",
             "includePath": [
                 "${workspaceFolder}/**",
-                "${workspaceFolder}/gfl-2008/include/",
                 "${workspaceFolder}/gfl-2010/include/",
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.22000.0",
+            "cStandard": "c17",
+            "cppStandard": "c++11",
+            "intelliSenseMode": "clang-x86"
+        },
+        {
+            "name": "GFL 2015",
+            "includePath": [
+                "${workspaceFolder}/**",
                 "${workspaceFolder}/gfl-2015/include/"
             ],
             "defines": [
