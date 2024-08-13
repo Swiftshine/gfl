@@ -2,6 +2,7 @@
 #define GFL_TASKINFO_H
 
 #include <types.h>
+#include <cstring> // for memcpy, memset
 
 namespace gfl {  
     class Task;
@@ -13,6 +14,7 @@ namespace gfl {
             Active   = 1,
         };
 
+        static TaskInfo* CurrentTask;
     public:
         TaskInfo();
         ~TaskInfo();

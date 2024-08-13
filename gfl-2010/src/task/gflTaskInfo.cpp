@@ -1,5 +1,4 @@
 #include <task/gflTaskInfo.h>
-#include <cstring> // for memset
 
 using namespace gfl;
 
