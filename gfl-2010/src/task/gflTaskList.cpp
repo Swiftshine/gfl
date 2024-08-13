@@ -4,7 +4,7 @@
 using namespace gfl;
 
 void TaskList::MakeInstance() {
-    TaskList::Instance = new (HeapID::LIB1) Task;
+    TaskList::Instance = new (HeapID::LIB1) TaskList;
 }
 
 void TaskList::RemoveInstance() {
